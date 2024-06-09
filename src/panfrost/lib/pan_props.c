@@ -79,10 +79,10 @@ const struct panfrost_model panfrost_model_list[] = {
 };
 
 const struct panfrost_model panfrost_unknown_model = {
-   .gpu_id = 0x6000,
-   .name = "G71",
-   .performance_counters = "TMIx",
-   .min_rev_anisotropic = 8192, 
+   .gpu_id = 0x9093,
+   .name = "G57",
+   .performance_counters = "TNAx",
+   .min_rev_anisotropic = 16384, 
    .tilebuffer_size = NO_ANISO, 
    .quirks = {}, 
 };
