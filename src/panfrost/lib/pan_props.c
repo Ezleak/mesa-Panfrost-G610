@@ -79,11 +79,11 @@ const struct panfrost_model panfrost_model_list[] = {
 };
 
 const struct panfrost_model panfrost_unknown_model = {
-   .gpu_id = 0xa867,
-   .name = "Fake Mali G610 (Panfrost)",
-   .performance_counters = "LODx",
-   .min_rev_anisotropic = HAS_ANISO, 
-   .tilebuffer_size = 65536, 
+   .gpu_id = 0x6000,
+   .name = "G71",
+   .performance_counters = "TMIx",
+   .min_rev_anisotropic = 8192, 
+   .tilebuffer_size = NO_ANISO, 
    .quirks = {}, 
 };
 
